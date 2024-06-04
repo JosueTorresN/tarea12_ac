@@ -1,4 +1,4 @@
-from src.main import suma, resta, multiplcacion, division
+from main import suma, resta, multiplcacion, division
 import pytest
 
 @pytest.mark.parametrize("input_a, input_b, expected_result", [(2, 2, 4), (0, 0, 0), (-1, 1, 0), (0, -1, -1), (-1, -1, -2)])
