@@ -33,10 +33,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest
 
-    - name: List files in the repository
-      run: |
-        dir /s
-
     - name: Test with pytest
       run: |
         .\venv\Scripts\Activate
